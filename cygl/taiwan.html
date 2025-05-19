@@ -235,7 +235,51 @@
             text-align: left;
             padding: 15px;
           }
-          
+          .promotion {
+    background-color: rgb(255, 251, 239); /* 米黃色背景 */
+    padding: 40px 5%;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.promotion-box {
+    text-align: center;
+    color: rgb(85, 171, 141);
+}
+
+.promotion-box h2 {
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.promotion-box .price {
+    color: rgb(248, 182, 0);
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.promotion-list {
+    list-style-type: disc;
+    padding-left: 50px;
+    color: #333;
+    font-size: 24px;
+    text-align: left;
+}
+
+.promotion-list li {
+    margin-bottom: 18px;
+    line-height: 1.8;
+}
+
+.promotion-box .discount {
+    color: rgb(248, 182, 0);
+    font-weight: bold;
+    font-size: 35px;
+}
     </style>
 </head>
 <body>
@@ -344,7 +388,17 @@
               旅程會由美好的早餐拉開序幕，到「虎頭山」尋找夏天的足跡，聽山鳴、聞綠意，在「77巧克力共和國」忘記一起的苦惱，接著一起闖進藍色的海洋世界「Xpark」，最後到「大溪老街」品嚐桃園的桃園古早街區的煙火氣，墜入生活的慢節奏。
             </p>
         </div>
-          
+          </section>
+        <section class="promotion">
+    <div class="promotion-box">
+        <h2>原價 <span class="price">2200</span></h2>
+        <ul class="promotion-list">
+            <li><strong>多人同行：</strong>4人同行一人半價；8人同行一人免費</li>
+            <li><strong>暑期優惠：</strong>6/15前訂購7/27行程，只要 <span class="discount">2000</span></li>
+            <li><strong>寫好評送小禮物</strong></li>
+        </ul>
+    </div>
+</section>
         <div class="itinerary"><h2>景點預覽</h2></div>
         <section>
             
@@ -458,7 +512,7 @@
     </div>
   </div>
 </div>
-        </section>
+        
         <section>
             <h2>建議攜帶物品</h2>
             <ul class="info-list">
